@@ -69,6 +69,31 @@ img {
     margin: 1rem 0;
 }
 
+.search-label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.link-search {
+    width: min(100%, 30rem);
+    min-height: 48px;
+    margin: 0.5rem auto;
+    padding: 0.75rem 1rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font: inherit;
+}
+
+.link-search:focus-visible {
+    outline: 3px solid #0000a8;
+    outline-offset: 3px;
+}
+
+.search-status {
+    min-height: 1.6em;
+}
+
 .button1 {
     display: inline-flex;
     align-items: center;
@@ -86,6 +111,10 @@ img {
     text-align: center;
     text-decoration: none;
     overflow-wrap: anywhere;
+}
+
+.button1[hidden] {
+    display: none;
 }
 
 .button1:hover {

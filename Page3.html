@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Physical Health Resources</title>
         <link rel="stylesheet" href="./css/Sytle.css" />
+        <script src="./js/search.js" defer></script>
     </head>
     <body>
         <header>
@@ -26,6 +27,9 @@
             </section>
             <section aria-labelledby="links-heading">
                 <h2 id="links-heading">Physical health resource links</h2>
+                <label class="search-label" for="link-search">Search available links</label>
+                <input class="link-search" id="link-search" type="search" placeholder="Search physical health links" aria-describedby="search-status" />
+                <p id="search-status" class="search-status" role="status" aria-live="polite">Showing all 4 links.</p>
                 <div class="button-group">
                     <a class="button1" href="https://launcher.myapps.microsoft.com/api/signin/78d9089a-2e6e-4575-b828-fc2e7c32d9b1?tenantId=7272d0c4-dc8f-4007-9110-a380f5581ce8">Chesly Health and Wellness Center</a>
                     <a class="button1" href="https://launcher.myapps.microsoft.com/api/signin/7530e69a-726b-4b63-a9e1-341e8714bbad?tenantId=7272d0c4-dc8f-4007-9110-a380f5581ce8">Campus Athletics</a>
